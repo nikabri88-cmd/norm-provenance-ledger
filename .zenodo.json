@@ -1,7 +1,7 @@
 {
   "title": "Norm Provenance Ledger: a pre-registered measurement of told, held, yielded and agent-authored norms in LLM agent logs",
   "upload_type": "software",
-  "description": "Rubric, scripts, pre-registration with amendments, judge outputs and results of a pre-registered study of how LLM agents receive, keep, break, yield on and invent behavioural norms. Tested on 101 transcripts: customer-service dialogues with policy conflicts (tau2-bench) and multi-agent software teams (MAST-Data), each coded by two LLM judges. The repository rebuilds the full pipeline from public sources and reproduces every reported number. Source transcripts are not redistributed; they are downloaded from their public hosts and verified by SHA-256.",
+  "description": "Rubric, scripts, pre-registration with amendments, judge outputs and results of a pre-registered study of how LLM agents receive, keep, break, yield on and invent behavioural norms. Tested on 101 transcripts: customer-service dialogues with policy conflicts (tau2-bench) and multi-agent software teams (MAST-Data), each coded by two LLM judges. The repository rebuilds the full pipeline from public sources and reproduces every reported number. Source transcripts are not redistributed; they are downloaded from their public hosts and verified by SHA-256. Licensing: code is released under MIT; the rubric, reports, annotations and judge outputs are released under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Source transcripts remain under their original licences (tau2-bench: MIT, Sierra Research; MAST-Data: CC BY 4.0, Cemri et al.).",
   "creators": [
     {
       "name": "Ryzhkova, Julia",
