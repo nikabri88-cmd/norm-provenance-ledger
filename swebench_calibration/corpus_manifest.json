@@ -1,0 +1,874 @@
+{
+  "protocol": "v0.3",
+  "sampling_seed": 20260930,
+  "instance_ids": [
+    "django__django-16631",
+    "django__django-15851",
+    "pylint-dev__pylint-4661",
+    "scikit-learn__scikit-learn-25102",
+    "django__django-13410",
+    "pytest-dev__pytest-7521",
+    "django__django-14500",
+    "pylint-dev__pylint-7080",
+    "matplotlib__matplotlib-20676",
+    "scikit-learn__scikit-learn-14053",
+    "sympy__sympy-21596",
+    "scikit-learn__scikit-learn-14629",
+    "pylint-dev__pylint-8898",
+    "django__django-16032",
+    "sphinx-doc__sphinx-9602",
+    "astropy__astropy-14369",
+    "django__django-10914",
+    "psf__requests-1142",
+    "scikit-learn__scikit-learn-13496",
+    "sphinx-doc__sphinx-10466",
+    "django__django-14053",
+    "django__django-16662",
+    "sympy__sympy-19637",
+    "sympy__sympy-14531",
+    "sphinx-doc__sphinx-11445",
+    "pydata__xarray-3095",
+    "django__django-16145",
+    "astropy__astropy-14539",
+    "sphinx-doc__sphinx-9320",
+    "astropy__astropy-8707",
+    "matplotlib__matplotlib-14623",
+    "sympy__sympy-14248",
+    "django__django-11276",
+    "django__django-12858",
+    "pydata__xarray-6744",
+    "matplotlib__matplotlib-24637",
+    "django__django-15104",
+    "django__django-11206",
+    "sympy__sympy-19954",
+    "django__django-15467",
+    "django__django-14672",
+    "sphinx-doc__sphinx-8475",
+    "sympy__sympy-13091",
+    "django__django-11133",
+    "sphinx-doc__sphinx-8120",
+    "sympy__sympy-15809",
+    "sympy__sympy-20801",
+    "django__django-15814",
+    "sympy__sympy-17139",
+    "django__django-10554"
+  ],
+  "pilot_ids": [
+    "swe_agent:claude-sonnet-4-20250514:django__django-16631",
+    "swe_agent:claude-sonnet-4-20250514:django__django-15851",
+    "swe_agent:claude-sonnet-4-20250514:pylint-dev__pylint-4661",
+    "swe_agent:claude-sonnet-4-20250514:scikit-learn__scikit-learn-25102",
+    "swe_agent:claude-sonnet-4-20250514:django__django-13410",
+    "mini_swe_agent:gpt-4.1-2025-04-14:django__django-16631",
+    "mini_swe_agent:gpt-4.1-2025-04-14:django__django-15851",
+    "mini_swe_agent:gpt-4.1-2025-04-14:pylint-dev__pylint-4661",
+    "mini_swe_agent:gpt-4.1-2025-04-14:scikit-learn__scikit-learn-25102",
+    "mini_swe_agent:gpt-4.1-2025-04-14:django__django-13410"
+  ],
+  "runs": [
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:django__django-16631",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "django__django-16631",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/django__django-16631/django__django-16631.traj",
+      "sha256": "78fc0e7149c0d274a927a2b165e573ec06f8d3160ca549b7fa100d065832d140"
+    },
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:django__django-15851",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "django__django-15851",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/django__django-15851/django__django-15851.traj",
+      "sha256": "6e4ac24958686cbe6af87e16976027e2b12da205b4c2454bf825a5f3bb585cad"
+    },
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:pylint-dev__pylint-4661",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "pylint-dev__pylint-4661",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/pylint-dev__pylint-4661/pylint-dev__pylint-4661.traj",
+      "sha256": "31a1f89f881d47064c497f5b930eefd8d8adc42561348fca63867e29cc7df8c1"
+    },
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:scikit-learn__scikit-learn-25102",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "scikit-learn__scikit-learn-25102",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/scikit-learn__scikit-learn-25102/scikit-learn__scikit-learn-25102.traj",
+      "sha256": "f00a79eba73bfa54248c3d1349c211921c9c397764d86130293bd7576342775f"
+    },
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:django__django-13410",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "django__django-13410",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/django__django-13410/django__django-13410.traj",
+      "sha256": "532e28903f52d4862c84961d9af145b7c59af318f76839afdf1b164665b81048"
+    },
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:pytest-dev__pytest-7521",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "pytest-dev__pytest-7521",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/pytest-dev__pytest-7521/pytest-dev__pytest-7521.traj",
+      "sha256": "cb31fa3a0eb7f8ed48ec06f2c48a2bb55111be1f69f9de738cdf49f1f40ef1c6"
+    },
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:django__django-14500",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "django__django-14500",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/django__django-14500/django__django-14500.traj",
+      "sha256": "7bb21f08710ddf8d4c56b10f1beac05735864e6f798bd4e7e6ac1ff38212ab49"
+    },
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:pylint-dev__pylint-7080",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "pylint-dev__pylint-7080",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/pylint-dev__pylint-7080/pylint-dev__pylint-7080.traj",
+      "sha256": "590cf19b7426d4ced4323732ff0cb65d597de0dc782f4daa7b16d87fe523d2f6"
+    },
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:matplotlib__matplotlib-20676",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "matplotlib__matplotlib-20676",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/matplotlib__matplotlib-20676/matplotlib__matplotlib-20676.traj",
+      "sha256": "e32ab2741d1b39812b6470b98ba69ebfedda19ab9030693d6891f7006664ed90"
+    },
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:scikit-learn__scikit-learn-14053",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "scikit-learn__scikit-learn-14053",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/scikit-learn__scikit-learn-14053/scikit-learn__scikit-learn-14053.traj",
+      "sha256": "2ffc74dadc2732aa2f21f6a18d9e7dcabd182d9a9d1b17c503418340485f9db9"
+    },
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:sympy__sympy-21596",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "sympy__sympy-21596",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/sympy__sympy-21596/sympy__sympy-21596.traj",
+      "sha256": "1d4cc3aba06f68014b0e572053544622156105b1a2b445c1c1c1bfdda85c438d"
+    },
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:scikit-learn__scikit-learn-14629",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "scikit-learn__scikit-learn-14629",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/scikit-learn__scikit-learn-14629/scikit-learn__scikit-learn-14629.traj",
+      "sha256": "aafe99f255a553d6111c60ec2163e4519fc2ca8448bc973ff01343f6598ad605"
+    },
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:pylint-dev__pylint-8898",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "pylint-dev__pylint-8898",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/pylint-dev__pylint-8898/pylint-dev__pylint-8898.traj",
+      "sha256": "51dc04b1a0dfaa54a686ebfa069cb3d053e779b2ad230522e6c037d693608e3d"
+    },
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:django__django-16032",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "django__django-16032",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/django__django-16032/django__django-16032.traj",
+      "sha256": "0f8ba66732a6470a5de0ca62c9fc47a9aaea483dc6166310ee822d28ee17ceeb"
+    },
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:sphinx-doc__sphinx-9602",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "sphinx-doc__sphinx-9602",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/sphinx-doc__sphinx-9602/sphinx-doc__sphinx-9602.traj",
+      "sha256": "0e12e3cdd22770ee7c2400d69f9a13edad4997db6add08947799788dc5d600b8"
+    },
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:astropy__astropy-14369",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "astropy__astropy-14369",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/astropy__astropy-14369/astropy__astropy-14369.traj",
+      "sha256": "4c055276be03795772cc67906b4aee66dc59b7f05ad77f52d6c515b1771b0c4e"
+    },
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:django__django-10914",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "django__django-10914",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/django__django-10914/django__django-10914.traj",
+      "sha256": "55536a5ef991b6686ee0ff41cc33752f076d170e4f57c19f908dfdcd0980f532"
+    },
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:psf__requests-1142",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "psf__requests-1142",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/psf__requests-1142/psf__requests-1142.traj",
+      "sha256": "73b8d178f66b3d1520fe3c869205849f1dbd38a718296c93c09ea66ce24c7f28"
+    },
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:scikit-learn__scikit-learn-13496",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "scikit-learn__scikit-learn-13496",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/scikit-learn__scikit-learn-13496/scikit-learn__scikit-learn-13496.traj",
+      "sha256": "226ee60badaa917c06513a0b806c8807a224affa8e09f36aadbcfad2614fea48"
+    },
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:sphinx-doc__sphinx-10466",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "sphinx-doc__sphinx-10466",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/sphinx-doc__sphinx-10466/sphinx-doc__sphinx-10466.traj",
+      "sha256": "1a1089af7a18569bf3638b1bf94eae4b2f1ab83cf660dacb6fd6fb40b3aed3cf"
+    },
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:django__django-14053",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "django__django-14053",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/django__django-14053/django__django-14053.traj",
+      "sha256": "d40e7edcaf8b0c0714ccb6025e4b578ba1c0402f5b042d01594b29e0d103eb4f"
+    },
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:django__django-16662",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "django__django-16662",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/django__django-16662/django__django-16662.traj",
+      "sha256": "de0fdabedfa1e3284fee1eeabcb4987631c62f06cef3f5da873ea1bb6e885393"
+    },
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:sympy__sympy-19637",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "sympy__sympy-19637",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/sympy__sympy-19637/sympy__sympy-19637.traj",
+      "sha256": "416213f502d46e2e0c346bd44f0265c850e1753157188d6ac2d3c2d8ac819095"
+    },
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:sympy__sympy-14531",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "sympy__sympy-14531",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/sympy__sympy-14531/sympy__sympy-14531.traj",
+      "sha256": "9de8014cb0e4f82de4f04994edd65ea06c4d06ca0bc67cf7fb24eff86e044058"
+    },
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:sphinx-doc__sphinx-11445",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "sphinx-doc__sphinx-11445",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/sphinx-doc__sphinx-11445/sphinx-doc__sphinx-11445.traj",
+      "sha256": "7220d1d9e1b8f384d3db05298898166d5c8efe731fa652b89a4dd0dd7e6fb69b"
+    },
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:pydata__xarray-3095",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "pydata__xarray-3095",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/pydata__xarray-3095/pydata__xarray-3095.traj",
+      "sha256": "4e736eb0b89d0e9aca7b32bd9e75831d71a3302a6d20ffc807f5b12af4eaca15"
+    },
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:django__django-16145",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "django__django-16145",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/django__django-16145/django__django-16145.traj",
+      "sha256": "038283f7edb8a34c9050e75e18d5b9c205e720e35e151f5b612e4033f2ddc0e2"
+    },
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:astropy__astropy-14539",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "astropy__astropy-14539",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/astropy__astropy-14539/astropy__astropy-14539.traj",
+      "sha256": "da42a94f39386288d482f93fc38e2c22e8f0cf01b4eeb6f9e51bb4e0e1b49acf"
+    },
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:sphinx-doc__sphinx-9320",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "sphinx-doc__sphinx-9320",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/sphinx-doc__sphinx-9320/sphinx-doc__sphinx-9320.traj",
+      "sha256": "73ef64a033feb3cd0364642ac6e69606ccdae831c6456471ade50ae8963b7d9e"
+    },
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:astropy__astropy-8707",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "astropy__astropy-8707",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/astropy__astropy-8707/astropy__astropy-8707.traj",
+      "sha256": "eeef59e052273b45ffd58e2893b30efac63506cf871fd7812beac1901679ec22"
+    },
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:matplotlib__matplotlib-14623",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "matplotlib__matplotlib-14623",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/matplotlib__matplotlib-14623/matplotlib__matplotlib-14623.traj",
+      "sha256": "fa0588e0f836903b405fd51e0065bd4ec3d1ca292aee29c2e3c754c0fafdf04e"
+    },
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:sympy__sympy-14248",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "sympy__sympy-14248",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/sympy__sympy-14248/sympy__sympy-14248.traj",
+      "sha256": "1c509bc6030942422b8788761df8e20b25881e60030383cfbd36dc551bb7e277"
+    },
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:django__django-11276",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "django__django-11276",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/django__django-11276/django__django-11276.traj",
+      "sha256": "c738a89143fea1db7da69fba6c45d00fd3b339ab137edc26fa677bc153fa25dd"
+    },
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:django__django-12858",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "django__django-12858",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/django__django-12858/django__django-12858.traj",
+      "sha256": "d6169e14b057e48a85d6b055dd5f670ea79d5e2ae07fccf4ab197470beb78bf6"
+    },
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:pydata__xarray-6744",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "pydata__xarray-6744",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/pydata__xarray-6744/pydata__xarray-6744.traj",
+      "sha256": "6eb4f5d026cf3532b369bfbc3674edef08853ae89cf62f6f7bf012320fa5567e"
+    },
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:matplotlib__matplotlib-24637",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "matplotlib__matplotlib-24637",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/matplotlib__matplotlib-24637/matplotlib__matplotlib-24637.traj",
+      "sha256": "78deab8efee4f1b4cf6ed48536012edd483cad7bec7e78ffeea36465f291d6bd"
+    },
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:django__django-15104",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "django__django-15104",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/django__django-15104/django__django-15104.traj",
+      "sha256": "26f7236cd32f62e160d7642e664fbf7506e012495cb9240fc377b78466d77efb"
+    },
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:django__django-11206",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "django__django-11206",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/django__django-11206/django__django-11206.traj",
+      "sha256": "39f4dc0a6c8251050617f2cdd85d5500cbf590bcf582bad02336ed770b6d2c7c"
+    },
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:sympy__sympy-19954",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "sympy__sympy-19954",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/sympy__sympy-19954/sympy__sympy-19954.traj",
+      "sha256": "3f06dd71a4342e7524b4972c0f5efac8a6a6ad919a70e0ae17cc520b7f0d55a9"
+    },
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:django__django-15467",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "django__django-15467",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/django__django-15467/django__django-15467.traj",
+      "sha256": "2184e5a7d221e6bec9abea2934539c78701245219285724d869731dbd1412607"
+    },
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:django__django-14672",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "django__django-14672",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/django__django-14672/django__django-14672.traj",
+      "sha256": "7bd361835df896721a0749ea4cf29407b34625e5c6d110fdb4cb9a8490bd0250"
+    },
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:sphinx-doc__sphinx-8475",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "sphinx-doc__sphinx-8475",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/sphinx-doc__sphinx-8475/sphinx-doc__sphinx-8475.traj",
+      "sha256": "7c275a0df2345d98e7946d8353e95bc44203cd0b7dd038907ccc6a29d635cd0f"
+    },
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:sympy__sympy-13091",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "sympy__sympy-13091",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/sympy__sympy-13091/sympy__sympy-13091.traj",
+      "sha256": "b372fe49f52847818b193887bef9f81c112d0b743a568d758b2dfda6e7a0d70b"
+    },
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:django__django-11133",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "django__django-11133",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/django__django-11133/django__django-11133.traj",
+      "sha256": "8bb79b1abf0721ad291deeb97ee57ab1ae8100baf3ded60253fce95f9faa3362"
+    },
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:sphinx-doc__sphinx-8120",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "sphinx-doc__sphinx-8120",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/sphinx-doc__sphinx-8120/sphinx-doc__sphinx-8120.traj",
+      "sha256": "8bd937f32eaf93be2d963a267987d2795fb19d0e0b56c923d1565b94ae82456a"
+    },
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:sympy__sympy-15809",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "sympy__sympy-15809",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/sympy__sympy-15809/sympy__sympy-15809.traj",
+      "sha256": "856d85c39a86c97e440435db5ad80483399b94482d1757c57ca0909733218e49"
+    },
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:sympy__sympy-20801",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "sympy__sympy-20801",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/sympy__sympy-20801/sympy__sympy-20801.traj",
+      "sha256": "51abdf2bc78147c75f103e56f66aa04bff9f9a86f9a7b55dbf3aeecf791ccd89"
+    },
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:django__django-15814",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "django__django-15814",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/django__django-15814/django__django-15814.traj",
+      "sha256": "295347a22e00c215c82f410b71d9702176ae86ad879302c44a4a9e33dfbee17c"
+    },
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:sympy__sympy-17139",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "sympy__sympy-17139",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/sympy__sympy-17139/sympy__sympy-17139.traj",
+      "sha256": "2a227052ff3748cd6d27036b8c94578d46c7b629c1e0ae7b06ffe5f06bf8e619"
+    },
+    {
+      "run_id": "swe_agent:claude-sonnet-4-20250514:django__django-10554",
+      "agent": "swe_agent",
+      "model": "claude-sonnet-4-20250514",
+      "instance_id": "django__django-10554",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/django__django-10554/django__django-10554.traj",
+      "sha256": "2b64bbb952fad7fea0e2f8e23d394f9b18e46da8bb9b2a63491c370e9346d123"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:django__django-16631",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "django__django-16631",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/django__django-16631/django__django-16631.traj.json",
+      "sha256": "2083c1956a906075e85ee6cfeea2ff2ced837ba14712f9a2be2774bbf0378fd4"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:django__django-15851",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "django__django-15851",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/django__django-15851/django__django-15851.traj.json",
+      "sha256": "698e2e28dce9d776bfdffe43649763241912269e97b6fd0dc855f36660c55b6a"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:pylint-dev__pylint-4661",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "pylint-dev__pylint-4661",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/pylint-dev__pylint-4661/pylint-dev__pylint-4661.traj.json",
+      "sha256": "40382394ee980698ba1fdeede64bba1854d7a0dd7bf87263b0d48ea540e33a37"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:scikit-learn__scikit-learn-25102",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "scikit-learn__scikit-learn-25102",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/scikit-learn__scikit-learn-25102/scikit-learn__scikit-learn-25102.traj.json",
+      "sha256": "c3065614eba8fc788552da34c232515849faedfc8e28453dfb452d020d82996e"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:django__django-13410",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "django__django-13410",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/django__django-13410/django__django-13410.traj.json",
+      "sha256": "334d7a2c4df17eba5f5b5e59e8c5302f20b477005c12da53a064083d04bb5d86"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:pytest-dev__pytest-7521",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "pytest-dev__pytest-7521",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/pytest-dev__pytest-7521/pytest-dev__pytest-7521.traj.json",
+      "sha256": "a9e8561fa8103d6177f836ab37440a6f57513fe68452287bfc41b195bf7a7fbd"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:django__django-14500",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "django__django-14500",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/django__django-14500/django__django-14500.traj.json",
+      "sha256": "c4a2ed9966484705a2946825dcf4b9da846e207f3c662c42e4d991441875fcac"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:pylint-dev__pylint-7080",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "pylint-dev__pylint-7080",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/pylint-dev__pylint-7080/pylint-dev__pylint-7080.traj.json",
+      "sha256": "acc69cd4376053e385f79d64d3b11564960d010ee82b11b7853c65c2f402899a"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:matplotlib__matplotlib-20676",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "matplotlib__matplotlib-20676",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/matplotlib__matplotlib-20676/matplotlib__matplotlib-20676.traj.json",
+      "sha256": "07b7b67288582733e3de29a9f37ce8502560b870d9211fbc5364dc9694aab515"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:scikit-learn__scikit-learn-14053",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "scikit-learn__scikit-learn-14053",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/scikit-learn__scikit-learn-14053/scikit-learn__scikit-learn-14053.traj.json",
+      "sha256": "e82564108afd9a67c4b10e7bac7370d11c3276ac4de4f4fe87f99e76580fbcca"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:sympy__sympy-21596",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "sympy__sympy-21596",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/sympy__sympy-21596/sympy__sympy-21596.traj.json",
+      "sha256": "0397c80eac8a6e5ec1d10152cb688343cee45ba7da0479f980bda015f9c24947"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:scikit-learn__scikit-learn-14629",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "scikit-learn__scikit-learn-14629",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/scikit-learn__scikit-learn-14629/scikit-learn__scikit-learn-14629.traj.json",
+      "sha256": "965227beb19d3dae0562992dab6e1b822dd43fd5c83b6b35c845b968800aedbb"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:pylint-dev__pylint-8898",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "pylint-dev__pylint-8898",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/pylint-dev__pylint-8898/pylint-dev__pylint-8898.traj.json",
+      "sha256": "01fcd4fee641eda13411323612979a74a875afde71cd8316ef1d78bc2fdb4662"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:django__django-16032",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "django__django-16032",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/django__django-16032/django__django-16032.traj.json",
+      "sha256": "b2efeda3914e5f5d92e4d2abfda79582d1ecb4027b941c15c8bd424d274d4fc9"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:sphinx-doc__sphinx-9602",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "sphinx-doc__sphinx-9602",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/sphinx-doc__sphinx-9602/sphinx-doc__sphinx-9602.traj.json",
+      "sha256": "48b01d45f2ee78c40056864a00247598388860d6d286a621bcc494a9c7ccf6b4"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:astropy__astropy-14369",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "astropy__astropy-14369",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/astropy__astropy-14369/astropy__astropy-14369.traj.json",
+      "sha256": "db764009fda063e36f90e0bb3f9c65c707d0aea4069981c237d1557f6ef26762"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:django__django-10914",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "django__django-10914",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/django__django-10914/django__django-10914.traj.json",
+      "sha256": "b667173558611f5561574fee75c0edaf0f0bfddbbaa7482e1902162bb75336f7"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:psf__requests-1142",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "psf__requests-1142",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/psf__requests-1142/psf__requests-1142.traj.json",
+      "sha256": "35ee6cbe84fd32fe673a5f38129e99667f886403ec9c847a931770f8ab819bcf"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:scikit-learn__scikit-learn-13496",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "scikit-learn__scikit-learn-13496",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/scikit-learn__scikit-learn-13496/scikit-learn__scikit-learn-13496.traj.json",
+      "sha256": "74bd753f1bcba85e9f6c121b68513d40396d1577f8ea58d2b3252ce02e157d0a"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:sphinx-doc__sphinx-10466",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "sphinx-doc__sphinx-10466",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/sphinx-doc__sphinx-10466/sphinx-doc__sphinx-10466.traj.json",
+      "sha256": "886ae1e8c962b323337292d6323fbcba2d674e5996540c27b896945dbe4ad5d3"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:django__django-14053",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "django__django-14053",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/django__django-14053/django__django-14053.traj.json",
+      "sha256": "f3558bf56d46a8cbd76b7df35faa2399cc9bc16ce8f913fdfa65101f7b376ae3"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:django__django-16662",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "django__django-16662",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/django__django-16662/django__django-16662.traj.json",
+      "sha256": "aa5bb42c790a2f35d26911d96d27b96d9671ff122c89247542b16335bfa9fb28"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:sympy__sympy-19637",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "sympy__sympy-19637",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/sympy__sympy-19637/sympy__sympy-19637.traj.json",
+      "sha256": "d37e7648b45f3e6c6498e904dac3a5ca1ca8088f8ffbb8f220ec61d9fc2ec685"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:sympy__sympy-14531",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "sympy__sympy-14531",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/sympy__sympy-14531/sympy__sympy-14531.traj.json",
+      "sha256": "050ceb8e62dcd35cdcc074321ad94325008166e14c9688f5cfebb87bd70b4f1d"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:sphinx-doc__sphinx-11445",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "sphinx-doc__sphinx-11445",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/sphinx-doc__sphinx-11445/sphinx-doc__sphinx-11445.traj.json",
+      "sha256": "75cf59f1049425e7317539095c948efc6bb540dcda37f311d4fcf781530639cb"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:pydata__xarray-3095",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "pydata__xarray-3095",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/pydata__xarray-3095/pydata__xarray-3095.traj.json",
+      "sha256": "50a09a3914ba4fe42625059ac05cb8bdf601518899592438993470a3fefa97b7"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:django__django-16145",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "django__django-16145",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/django__django-16145/django__django-16145.traj.json",
+      "sha256": "9f1ad35eb0cfc82d3dd76255428d07cafc963c2a14cef4b5783a8bbd3ef58b47"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:astropy__astropy-14539",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "astropy__astropy-14539",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/astropy__astropy-14539/astropy__astropy-14539.traj.json",
+      "sha256": "51e038fc0f8faf3ed7e624b7896dcaf87655a8f5ec2ecf0e10fa3bd7186d3fe4"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:sphinx-doc__sphinx-9320",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "sphinx-doc__sphinx-9320",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/sphinx-doc__sphinx-9320/sphinx-doc__sphinx-9320.traj.json",
+      "sha256": "9fe68cd2e53a81e21791ac2de2003f0770c2d3123f44dda3bc90100d66c19947"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:astropy__astropy-8707",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "astropy__astropy-8707",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/astropy__astropy-8707/astropy__astropy-8707.traj.json",
+      "sha256": "b96c9624c1bc5f46775935156ae4d2060e86a4a77bbb5c3e57ad5b4810f0fb71"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:matplotlib__matplotlib-14623",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "matplotlib__matplotlib-14623",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/matplotlib__matplotlib-14623/matplotlib__matplotlib-14623.traj.json",
+      "sha256": "96f5aeb06f547e6a43322844a17c093fba5980f3285122119da163b259f12ec2"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:sympy__sympy-14248",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "sympy__sympy-14248",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/sympy__sympy-14248/sympy__sympy-14248.traj.json",
+      "sha256": "9b02b9af86a699126f1ebb2e24432d4f68630bdf242a234ef555c9a4bd20ad91"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:django__django-11276",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "django__django-11276",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/django__django-11276/django__django-11276.traj.json",
+      "sha256": "364aca6ade4bd9ab238b40a500aefde12a87ab881f449d9af239560c7866d835"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:django__django-12858",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "django__django-12858",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/django__django-12858/django__django-12858.traj.json",
+      "sha256": "d2a49db4301bd0ea59c59183312ae478a835e664b13ffaa09a0ba2dd5d7af191"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:pydata__xarray-6744",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "pydata__xarray-6744",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/pydata__xarray-6744/pydata__xarray-6744.traj.json",
+      "sha256": "9030935d8d242a0cfd118b4ac065c161d6156911c4ee42c149845c40b3408d99"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:matplotlib__matplotlib-24637",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "matplotlib__matplotlib-24637",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/matplotlib__matplotlib-24637/matplotlib__matplotlib-24637.traj.json",
+      "sha256": "d523409e63343dea6ec88b8023b5efe5c3c65c0ad8df946b164e34351418067e"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:django__django-15104",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "django__django-15104",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/django__django-15104/django__django-15104.traj.json",
+      "sha256": "b8137a46beaf989f01ad12be8333471e7076cab6b66487da4ad57c4e5cd26f17"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:django__django-11206",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "django__django-11206",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/django__django-11206/django__django-11206.traj.json",
+      "sha256": "c41508a56b3f2dd2cc6302a3dda0cd4d9c5074f99b4c0ff7b715e31116e156a7"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:sympy__sympy-19954",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "sympy__sympy-19954",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/sympy__sympy-19954/sympy__sympy-19954.traj.json",
+      "sha256": "674b5e0722cbd3daf8cc6df6eab422abc8d471e7004f84ec8aac45329ed79d52"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:django__django-15467",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "django__django-15467",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/django__django-15467/django__django-15467.traj.json",
+      "sha256": "eea4a8a2d6ab0a408f5c3579e206689efff271a6f87425e7f1dda3c35d232a27"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:django__django-14672",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "django__django-14672",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/django__django-14672/django__django-14672.traj.json",
+      "sha256": "ed3a4c543b07bfb79c997bb7552dd1711928013ac81e6ffefe636057b33f7c36"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:sphinx-doc__sphinx-8475",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "sphinx-doc__sphinx-8475",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/sphinx-doc__sphinx-8475/sphinx-doc__sphinx-8475.traj.json",
+      "sha256": "53997af4bb2fbc1280d1b2b6428d3302907cc08c88b294670f5801d3295cdd71"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:sympy__sympy-13091",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "sympy__sympy-13091",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/sympy__sympy-13091/sympy__sympy-13091.traj.json",
+      "sha256": "32b9c9157d1606d0b5504b56e4bda11f358ec586411846839776ec8220ebaffa"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:django__django-11133",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "django__django-11133",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/django__django-11133/django__django-11133.traj.json",
+      "sha256": "359e2ecbf74864b2dc412f239b0f59b3a62a05f06645e58d2897a53e04bd38b7"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:sphinx-doc__sphinx-8120",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "sphinx-doc__sphinx-8120",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/sphinx-doc__sphinx-8120/sphinx-doc__sphinx-8120.traj.json",
+      "sha256": "7c7cbef2f1cf57f64e9400d74fc7776ca8f578bc166564b8fa6f9db19238c9ee"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:sympy__sympy-15809",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "sympy__sympy-15809",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/sympy__sympy-15809/sympy__sympy-15809.traj.json",
+      "sha256": "4ce788f8d92bf211c557435d174d2aefcd649d9fd648476f38e8b43d2d36cb28"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:sympy__sympy-20801",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "sympy__sympy-20801",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/sympy__sympy-20801/sympy__sympy-20801.traj.json",
+      "sha256": "7edbdfa63f2177af559e4f2e8d9de8535325719eec4b07e5bb090d5d1698a1d0"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:django__django-15814",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "django__django-15814",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/django__django-15814/django__django-15814.traj.json",
+      "sha256": "32e07988c0666adbe164d14cee8af6b60e20bd4d29afe1686538bc5d58041038"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:sympy__sympy-17139",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "sympy__sympy-17139",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/sympy__sympy-17139/sympy__sympy-17139.traj.json",
+      "sha256": "3b7fc4b331ef71d57f43e4c097d9e534c6a3f5027eea8512e3b39d336c1091d1"
+    },
+    {
+      "run_id": "mini_swe_agent:gpt-4.1-2025-04-14:django__django-10554",
+      "agent": "mini_swe_agent",
+      "model": "gpt-4.1-2025-04-14",
+      "instance_id": "django__django-10554",
+      "source_url": "https://swe-bench-submissions.s3.amazonaws.com/bash-only/20250726_mini-v1.0.0_gpt-4.1-2025-04-14/trajs/django__django-10554/django__django-10554.traj.json",
+      "sha256": "0328ae6add0ea5184f060cc15d58e35360a9b12c28ed8f9c67439237aac582b3"
+    }
+  ],
+  "total_runs": 100,
+  "total_blocks": 8373,
+  "pilot_blocks": 980,
+  "evaluation_started": false
+}

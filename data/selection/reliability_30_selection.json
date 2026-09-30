@@ -1,0 +1,37 @@
+{
+ "rule": "random.Random('20260930-reliability-A').sample(sorted(confirmatory A ids),15); random.Random('20260930-reliability-B').sample(sorted(confirmatory B ids),15); pilot runs and pilot-task exclusions removed before sampling",
+ "A": [
+  "run_059",
+  "run_009",
+  "run_022",
+  "run_045",
+  "run_035",
+  "run_015",
+  "run_020",
+  "run_058",
+  "run_041",
+  "run_004",
+  "run_003",
+  "run_040",
+  "run_025",
+  "run_033",
+  "run_043"
+ ],
+ "B": [
+  "run_083",
+  "run_097",
+  "run_076",
+  "run_085",
+  "run_079",
+  "run_088",
+  "run_103",
+  "run_105",
+  "run_072",
+  "run_096",
+  "run_065",
+  "run_104",
+  "run_069",
+  "run_087",
+  "run_101"
+ ]
+}

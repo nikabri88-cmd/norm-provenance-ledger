@@ -1,0 +1,156 @@
+{
+  "type": "object",
+  "properties": {
+    "norms": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "norm_id": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string",
+            "citations": true
+          },
+          "source_type": {
+            "type": "string",
+            "enum": [
+              "system",
+              "user",
+              "tool_doc",
+              "environment",
+              "peer",
+              "none"
+            ]
+          },
+          "source_block": {
+            "type": "integer"
+          },
+          "agent": {
+            "type": "string"
+          },
+          "norm_type": {
+            "type": "string",
+            "enum": [
+              "conduct",
+              "role",
+              "task_result"
+            ]
+          }
+        },
+        "required": [
+          "norm_id",
+          "text",
+          "source_type",
+          "source_block",
+          "agent",
+          "norm_type"
+        ]
+      }
+    },
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "norm_id": {
+            "type": "string"
+          },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "source",
+              "restated_to_agent",
+              "applied",
+              "stated_by_agent",
+              "violated",
+              "pressure"
+            ]
+          },
+          "block": {
+            "type": "integer"
+          },
+          "acknowledged": {
+            "type": "boolean"
+          },
+          "evidence": {
+            "type": "string",
+            "citations": true
+          },
+          "agent": {
+            "type": "string"
+          },
+          "holder": {
+            "type": "string",
+            "enum": [
+              "H",
+              "D",
+              "P",
+              "O"
+            ]
+          }
+        },
+        "required": [
+          "norm_id",
+          "kind",
+          "block",
+          "evidence",
+          "agent",
+          "holder"
+        ]
+      }
+    },
+    "authored_rules": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "norm_id": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string",
+            "citations": true
+          },
+          "subtype": {
+            "type": "string",
+            "enum": [
+              "generalization",
+              "self_policy",
+              "unsupported_external_constraint",
+              "contradicted_external_constraint"
+            ]
+          },
+          "block": {
+            "type": "integer"
+          },
+          "contradicting_evidence": {
+            "type": "string",
+            "citations": true
+          },
+          "agent": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "norm_id",
+          "text",
+          "subtype",
+          "block",
+          "contradicting_evidence",
+          "agent"
+        ]
+      }
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "norms",
+    "events",
+    "authored_rules",
+    "notes"
+  ]
+}

@@ -1,0 +1,834 @@
+[
+  {
+    "row_index": 1422,
+    "key": [
+      "MetaGPT",
+      "Qwen",
+      80
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 0,
+    "body_sha256": "b51dafaf66dbf0879d63cf3717e79c3528b483b0edf51261284f366caacab546",
+    "pair_id": "MetaGPT_09",
+    "id": "run_061",
+    "pilot": false,
+    "exclude_confirmatory": false,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1242,
+    "key": [
+      "ChatDev",
+      "Qwen",
+      0
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 1,
+    "body_sha256": "39a00f6087514031fb971a03dde9f4ee0fdabc6cebb47a436c06b423828ed78e",
+    "pair_id": "ChatDev_07",
+    "id": "run_062",
+    "pilot": true,
+    "exclude_confirmatory": true,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1342,
+    "key": [
+      "MetaGPT",
+      "Qwen",
+      0
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 0,
+    "body_sha256": "bf4794d1a82e1f09cf407a2860801f92d1eeccc77297554fa1d55ae22a50496d",
+    "pair_id": "MetaGPT_11",
+    "id": "run_063",
+    "pilot": false,
+    "exclude_confirmatory": false,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1267,
+    "key": [
+      "ChatDev",
+      "Qwen",
+      25
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 1,
+    "body_sha256": "8cb8082038e24ad1a6f529da347c22914107ee1b7e733af3e42378da4ffbb163",
+    "pair_id": "ChatDev_06",
+    "id": "run_064",
+    "pilot": false,
+    "exclude_confirmatory": false,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1402,
+    "key": [
+      "MetaGPT",
+      "Qwen",
+      60
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 1,
+    "body_sha256": "85ed528640ef2fa3309d117f029cb3884b31a0c9ac5d6a06f3815affbe421b6a",
+    "pair_id": "MetaGPT_12",
+    "id": "run_065",
+    "pilot": false,
+    "exclude_confirmatory": false,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1317,
+    "key": [
+      "ChatDev",
+      "Qwen",
+      75
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 0,
+    "body_sha256": "f52121ee73392e992eec5088ff1a279bec00455945e8ea830099fec772f3a7c8",
+    "pair_id": "ChatDev_04",
+    "id": "run_066",
+    "pilot": false,
+    "exclude_confirmatory": false,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1293,
+    "key": [
+      "ChatDev",
+      "Qwen",
+      51
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 0,
+    "body_sha256": "16c8dcbe60eb8ee2b412c75476926ced48d422995345e8d05edc025c9b411c45",
+    "pair_id": "ChatDev_10",
+    "id": "run_067",
+    "pilot": false,
+    "exclude_confirmatory": false,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1391,
+    "key": [
+      "MetaGPT",
+      "Qwen",
+      49
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 0,
+    "body_sha256": "d330dd5f1471c0d6df34436023ca1b850d55554056652881388084c1b4561d9d",
+    "pair_id": "MetaGPT_06",
+    "id": "run_068",
+    "pilot": true,
+    "exclude_confirmatory": true,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1251,
+    "key": [
+      "ChatDev",
+      "Qwen",
+      9
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 1,
+    "body_sha256": "77ef050ead0c3da66c0720a1921774959da75bbc5b5030bb6c5830cbb9215b17",
+    "pair_id": "ChatDev_05",
+    "id": "run_069",
+    "pilot": false,
+    "exclude_confirmatory": false,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1286,
+    "key": [
+      "ChatDev",
+      "Qwen",
+      44
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 1,
+    "body_sha256": "7c12817dec63d8997bf470a455c129bca1be6eba3f63eb3e9a89b458526ee5db",
+    "pair_id": "ChatDev_08",
+    "id": "run_070",
+    "pilot": false,
+    "exclude_confirmatory": false,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1413,
+    "key": [
+      "MetaGPT",
+      "Qwen",
+      71
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 0,
+    "body_sha256": "90aa74f5c1cea640a0a551d096ea54ceb4d788f57f9cf101e7db1ec61be59670",
+    "pair_id": "MetaGPT_13",
+    "id": "run_071",
+    "pilot": false,
+    "exclude_confirmatory": false,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1353,
+    "key": [
+      "MetaGPT",
+      "Qwen",
+      11
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 1,
+    "body_sha256": "63b5cbabe5e743d9b10261db1b43a61e5b95bee989423a36129faffdb9b6c063",
+    "pair_id": "MetaGPT_01",
+    "id": "run_072",
+    "pilot": false,
+    "exclude_confirmatory": false,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1436,
+    "key": [
+      "MetaGPT",
+      "Qwen",
+      94
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 1,
+    "body_sha256": "39728f1af23c82bc1c689831118f021c378dbecb57ede52cacdb707cc45578ba",
+    "pair_id": "MetaGPT_02",
+    "id": "run_073",
+    "pilot": false,
+    "exclude_confirmatory": false,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1276,
+    "key": [
+      "ChatDev",
+      "Qwen",
+      34
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 0,
+    "body_sha256": "bf32f0f1708e22b48e08262e244578c057cfd36f247b1d6053e36109a8adb10a",
+    "pair_id": "ChatDev_13",
+    "id": "run_074",
+    "pilot": false,
+    "exclude_confirmatory": false,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1373,
+    "key": [
+      "MetaGPT",
+      "Qwen",
+      31
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 0,
+    "body_sha256": "ce3946d0a9657af8e85d34f91c48e92f2c72f6b37161e376b17f716e27db8fe1",
+    "pair_id": "MetaGPT_08",
+    "id": "run_075",
+    "pilot": false,
+    "exclude_confirmatory": false,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1441,
+    "key": [
+      "MetaGPT",
+      "Qwen",
+      99
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 0,
+    "body_sha256": "e74cf5262d7b980a5000c5d1723caeeb7c957b34dc7441e4d08cfbcf057feced",
+    "pair_id": "MetaGPT_10",
+    "id": "run_076",
+    "pilot": false,
+    "exclude_confirmatory": false,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1438,
+    "key": [
+      "MetaGPT",
+      "Qwen",
+      96
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 0,
+    "body_sha256": "8a66bf8279e8deef2adce1b3321199eeb96eb23c4f24bd1d31a616c454ec0e83",
+    "pair_id": "MetaGPT_02",
+    "id": "run_077",
+    "pilot": false,
+    "exclude_confirmatory": false,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1260,
+    "key": [
+      "ChatDev",
+      "Qwen",
+      18
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 0,
+    "body_sha256": "04c6911064288aabc152c3e0b8e1ad83c287284fdc8e7a996624e132b3e2fe6c",
+    "pair_id": "ChatDev_05",
+    "id": "run_078",
+    "pilot": false,
+    "exclude_confirmatory": false,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1250,
+    "key": [
+      "ChatDev",
+      "Qwen",
+      8
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 1,
+    "body_sha256": "09912d31d0151b9059bf040ad6427eaf339d91e7b1ceb4ad1d253052661ae927",
+    "pair_id": "ChatDev_11",
+    "id": "run_079",
+    "pilot": false,
+    "exclude_confirmatory": false,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1379,
+    "key": [
+      "MetaGPT",
+      "Qwen",
+      37
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 0,
+    "body_sha256": "f8f075950c05d578dbc57926b78ce2c6af0cf7a2fc157f8ab26c74ccd4d376b0",
+    "pair_id": "MetaGPT_07",
+    "id": "run_080",
+    "pilot": true,
+    "exclude_confirmatory": true,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1363,
+    "key": [
+      "MetaGPT",
+      "Qwen",
+      21
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 1,
+    "body_sha256": "9716ccd120acdef50ac3763f82657b35db56d4e70bd377a11441f158d945b611",
+    "pair_id": "MetaGPT_05",
+    "id": "run_081",
+    "pilot": false,
+    "exclude_confirmatory": false,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1405,
+    "key": [
+      "MetaGPT",
+      "Qwen",
+      63
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 0,
+    "body_sha256": "bc28238ba90ef779adacbaa15037064aefa173415b6916d5bc365d4d20f7e115",
+    "pair_id": "MetaGPT_05",
+    "id": "run_082",
+    "pilot": false,
+    "exclude_confirmatory": false,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1358,
+    "key": [
+      "MetaGPT",
+      "Qwen",
+      16
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 0,
+    "body_sha256": "f7f7e1938b1eb638c7ff1f7b402e52bfa2f964c999b045324903a8733645c2c4",
+    "pair_id": "MetaGPT_03",
+    "id": "run_083",
+    "pilot": false,
+    "exclude_confirmatory": false,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1360,
+    "key": [
+      "MetaGPT",
+      "Qwen",
+      18
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 0,
+    "body_sha256": "f68d48dbd8c5a0757bcde33b3da7f580c9f87800c509ea1730e13b8dcdd3a187",
+    "pair_id": "MetaGPT_01",
+    "id": "run_084",
+    "pilot": false,
+    "exclude_confirmatory": false,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1244,
+    "key": [
+      "ChatDev",
+      "Qwen",
+      2
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 0,
+    "body_sha256": "186433d3d9433cfc7f4334f4289c6d16726f43a7c4b4ca535526b02104684b84",
+    "pair_id": "ChatDev_11",
+    "id": "run_085",
+    "pilot": false,
+    "exclude_confirmatory": false,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1327,
+    "key": [
+      "ChatDev",
+      "Qwen",
+      85
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 0,
+    "body_sha256": "2bbcf93fbc5811555daa553668eba3eba43dd4f602e8bf4310d7747f21510a5f",
+    "pair_id": "ChatDev_03",
+    "id": "run_086",
+    "pilot": false,
+    "exclude_confirmatory": false,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1372,
+    "key": [
+      "MetaGPT",
+      "Qwen",
+      30
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 1,
+    "body_sha256": "23befb7f22bdc556f08a8ec5a1305ea51d4bcb1dfe72d8180b7a8cfbd5672742",
+    "pair_id": "MetaGPT_10",
+    "id": "run_087",
+    "pilot": false,
+    "exclude_confirmatory": false,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1301,
+    "key": [
+      "ChatDev",
+      "Qwen",
+      59
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 0,
+    "body_sha256": "a59de484e08741d9435eefeaa239fe531c9e05cc4395d9e7abef0d2cb09a2012",
+    "pair_id": "ChatDev_07",
+    "id": "run_088",
+    "pilot": false,
+    "exclude_confirmatory": false,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1280,
+    "key": [
+      "ChatDev",
+      "Qwen",
+      38
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 0,
+    "body_sha256": "248fe713b5b2ff6c16796b4179f0d4e8a5ce7eefc5033eddfe5ad4480a6a3206",
+    "pair_id": "ChatDev_06",
+    "id": "run_089",
+    "pilot": false,
+    "exclude_confirmatory": false,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1433,
+    "key": [
+      "MetaGPT",
+      "Qwen",
+      91
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 1,
+    "body_sha256": "fa8c09844d24689a226380037d297e9bc4781f5dca9c304a9e5dbf6c41de4a25",
+    "pair_id": "MetaGPT_09",
+    "id": "run_090",
+    "pilot": false,
+    "exclude_confirmatory": false,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1332,
+    "key": [
+      "ChatDev",
+      "Qwen",
+      90
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 1,
+    "body_sha256": "da7f96dfa3caac8ba48a89b5b438569317f70de83cf917c1a1650a93777ba94f",
+    "pair_id": "ChatDev_04",
+    "id": "run_091",
+    "pilot": false,
+    "exclude_confirmatory": false,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1329,
+    "key": [
+      "ChatDev",
+      "Qwen",
+      87
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 0,
+    "body_sha256": "aa9ec1141dbfcc07e8541340adb658a9907a583ecad27cc6ebb8b8103f1c2d08",
+    "pair_id": "ChatDev_09",
+    "id": "run_092",
+    "pilot": false,
+    "exclude_confirmatory": false,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1294,
+    "key": [
+      "ChatDev",
+      "Qwen",
+      52
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 0,
+    "body_sha256": "50ba97940923f3534f43af5ecc85541f0c4f03bf0b7cfa0ad58186500329a83a",
+    "pair_id": "ChatDev_01",
+    "id": "run_093",
+    "pilot": false,
+    "exclude_confirmatory": false,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1313,
+    "key": [
+      "ChatDev",
+      "Qwen",
+      71
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 1,
+    "body_sha256": "46b342d308d5f02612c7367b547358602a2752e4952d5e0b00bfb1b63b7ba6b0",
+    "pair_id": "ChatDev_13",
+    "id": "run_094",
+    "pilot": false,
+    "exclude_confirmatory": false,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1390,
+    "key": [
+      "MetaGPT",
+      "Qwen",
+      48
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 1,
+    "body_sha256": "70fa548bfeed1eebdb40b62d4f8ce23508bf52a0e716627d05017a52e743fc55",
+    "pair_id": "MetaGPT_08",
+    "id": "run_095",
+    "pilot": true,
+    "exclude_confirmatory": true,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1382,
+    "key": [
+      "MetaGPT",
+      "Qwen",
+      40
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 1,
+    "body_sha256": "44539192eb390ccbe0cacb22b1f5c2ea961a798355993dbe093f2061a3edacd4",
+    "pair_id": "MetaGPT_13",
+    "id": "run_096",
+    "pilot": false,
+    "exclude_confirmatory": false,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1272,
+    "key": [
+      "ChatDev",
+      "Qwen",
+      30
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 0,
+    "body_sha256": "2bcbb220b590502d199567028cdda79887a2292d6444c1cfc7765afc4524632f",
+    "pair_id": "ChatDev_08",
+    "id": "run_097",
+    "pilot": false,
+    "exclude_confirmatory": false,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1324,
+    "key": [
+      "ChatDev",
+      "Qwen",
+      82
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 1,
+    "body_sha256": "69bdc06aebf915322427b44fcb1c3caad44b13e84264bd33c5e9ea947d975203",
+    "pair_id": "ChatDev_02",
+    "id": "run_098",
+    "pilot": false,
+    "exclude_confirmatory": false,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1290,
+    "key": [
+      "ChatDev",
+      "Qwen",
+      48
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 1,
+    "body_sha256": "3a21b9c3f3c76b6ab5aa81231eed73429e3ad07cab1faa506988a67d8616d610",
+    "pair_id": "ChatDev_01",
+    "id": "run_099",
+    "pilot": false,
+    "exclude_confirmatory": false,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1261,
+    "key": [
+      "ChatDev",
+      "Qwen",
+      19
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 0,
+    "body_sha256": "93648121b5ecd436998951b1a82cdad86fe9412ea0dd0c111d7f17f1048e1108",
+    "pair_id": "ChatDev_02",
+    "id": "run_100",
+    "pilot": false,
+    "exclude_confirmatory": false,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1423,
+    "key": [
+      "MetaGPT",
+      "Qwen",
+      81
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 0,
+    "body_sha256": "b44c4f5a5306eedf829b89b4aadba90ab9e0788f1ca12d129749ab709dd2ad81",
+    "pair_id": "MetaGPT_12",
+    "id": "run_101",
+    "pilot": false,
+    "exclude_confirmatory": false,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1389,
+    "key": [
+      "MetaGPT",
+      "Qwen",
+      47
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 1,
+    "body_sha256": "7bbedd1a896e3a1cacc88f4956636e2e2e1fc8ffc81f8058d86962f0d6f33381",
+    "pair_id": "MetaGPT_06",
+    "id": "run_102",
+    "pilot": false,
+    "exclude_confirmatory": false,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1380,
+    "key": [
+      "MetaGPT",
+      "Qwen",
+      38
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 0,
+    "body_sha256": "652391380b2cbe8a222ffb8f9ac7dade380f954a35faa44c7430c274fb281600",
+    "pair_id": "MetaGPT_04",
+    "id": "run_103",
+    "pilot": false,
+    "exclude_confirmatory": false,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1336,
+    "key": [
+      "ChatDev",
+      "Qwen",
+      94
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 1,
+    "body_sha256": "fc6b95e9c77d57d270402380a049f8f084af0286a979b71ad326439d5f892c42",
+    "pair_id": "ChatDev_12",
+    "id": "run_104",
+    "pilot": false,
+    "exclude_confirmatory": false,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1254,
+    "key": [
+      "ChatDev",
+      "Qwen",
+      12
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 1,
+    "body_sha256": "45de1fb316009585666a5107b7e3d1ddf3e4e468b824b71797ad7bf28aa92d4f",
+    "pair_id": "ChatDev_10",
+    "id": "run_105",
+    "pilot": false,
+    "exclude_confirmatory": false,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1400,
+    "key": [
+      "MetaGPT",
+      "Qwen",
+      58
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 1,
+    "body_sha256": "31801453eba84545e0d38e014d283fbbfec59f9dc7588a156e413fe7fd9fdf9e",
+    "pair_id": "MetaGPT_11",
+    "id": "run_106",
+    "pilot": true,
+    "exclude_confirmatory": true,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1415,
+    "key": [
+      "MetaGPT",
+      "Qwen",
+      73
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 1,
+    "body_sha256": "b5bf12617ca933b996ecaf9abd61664ec01c457e8ec62efbbfa1efc05713400c",
+    "pair_id": "MetaGPT_03",
+    "id": "run_107",
+    "pilot": false,
+    "exclude_confirmatory": false,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1315,
+    "key": [
+      "ChatDev",
+      "Qwen",
+      73
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 1,
+    "body_sha256": "1795d8925f4b5efff8d7b2e074d71ed9b9816a923ae60f999ec018cba56ab84b",
+    "pair_id": "ChatDev_09",
+    "id": "run_108",
+    "pilot": false,
+    "exclude_confirmatory": false,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1386,
+    "key": [
+      "MetaGPT",
+      "Qwen",
+      44
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 1,
+    "body_sha256": "368329c0309df0d4dd4a7aab3085c94f9dc1a2581bb49fdd7787257d1b3450f7",
+    "pair_id": "MetaGPT_04",
+    "id": "run_109",
+    "pilot": false,
+    "exclude_confirmatory": false,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1307,
+    "key": [
+      "ChatDev",
+      "Qwen",
+      65
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 1,
+    "body_sha256": "fcec993a3a7ecf532a7910617ab56f63c3b7b36b7417ab6a6afe900ab82f802f",
+    "pair_id": "ChatDev_03",
+    "id": "run_110",
+    "pilot": false,
+    "exclude_confirmatory": false,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1320,
+    "key": [
+      "ChatDev",
+      "Qwen",
+      78
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 0,
+    "body_sha256": "e2fd46e0b6b77b860b435e634ee0b22939fa4e277ab9f824d4f5488f73768da6",
+    "pair_id": "ChatDev_12",
+    "id": "run_111",
+    "pilot": false,
+    "exclude_confirmatory": false,
+    "segmentation_status": "not_assessed"
+  },
+  {
+    "row_index": 1439,
+    "key": [
+      "MetaGPT",
+      "Qwen",
+      97
+    ],
+    "benchmark": "ProgramDev-v2",
+    "label": 1,
+    "body_sha256": "0d0f756b689ce64ea15b0851ca33885e94a2692e5d9b3666760a4da7377529cb",
+    "pair_id": "MetaGPT_07",
+    "id": "run_112",
+    "pilot": false,
+    "exclude_confirmatory": false,
+    "segmentation_status": "not_assessed"
+  }
+]

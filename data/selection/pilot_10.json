@@ -1,0 +1,46 @@
+{
+  "A": [
+    {
+      "id": "run_002",
+      "input_file": "judge_inputs_A/run_002.json"
+    },
+    {
+      "id": "run_012",
+      "input_file": "judge_inputs_A/run_012.json"
+    },
+    {
+      "id": "run_018",
+      "input_file": "judge_inputs_A/run_018.json"
+    },
+    {
+      "id": "run_026",
+      "input_file": "judge_inputs_A/run_026.json"
+    },
+    {
+      "id": "run_042",
+      "input_file": "judge_inputs_A/run_042.json"
+    }
+  ],
+  "B": [
+    {
+      "id": "run_062",
+      "input_file": "judge_inputs_B/run_062.json"
+    },
+    {
+      "id": "run_068",
+      "input_file": "judge_inputs_B/run_068.json"
+    },
+    {
+      "id": "run_080",
+      "input_file": "judge_inputs_B/run_080.json"
+    },
+    {
+      "id": "run_095",
+      "input_file": "judge_inputs_B/run_095.json"
+    },
+    {
+      "id": "run_106",
+      "input_file": "judge_inputs_B/run_106.json"
+    }
+  ]
+}

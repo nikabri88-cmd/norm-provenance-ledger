@@ -1,0 +1,46 @@
+{
+ "tau2": [
+  {
+   "url": "https://sierra-tau-bench-public.s3.amazonaws.com/submissions/claude-3-7-sonnet_anthropic_2024-06-20/trajectories/claude-3-7-sonnet-20250219_airline_default_gpt-4.1-2025-04-14_4trials.json",
+   "path": "sources/submissions/claude-3-7-sonnet_anthropic_2024-06-20/trajectories/claude-3-7-sonnet-20250219_airline_default_gpt-4.1-2025-04-14_4trials.json",
+   "sha256": "40a2c6a246eab27db5cdefda895fbe7f44be78a23d300817248534aa606d66de",
+   "bytes": 10551448
+  },
+  {
+   "url": "https://sierra-tau-bench-public.s3.amazonaws.com/submissions/claude-3-7-sonnet_anthropic_2024-06-20/trajectories/claude-3-7-sonnet-20250219_retail_default_gpt-4.1-2025-04-14_4trials.json",
+   "path": "sources/submissions/claude-3-7-sonnet_anthropic_2024-06-20/trajectories/claude-3-7-sonnet-20250219_retail_default_gpt-4.1-2025-04-14_4trials.json",
+   "sha256": "ed41dbd18c080154156484e3a0122c095e324a11367a640d88e15956daed7b9d",
+   "bytes": 24908843
+  },
+  {
+   "url": "https://sierra-tau-bench-public.s3.amazonaws.com/submissions/claude-3-7-sonnet_anthropic_2024-06-20/trajectories/claude-3-7-sonnet-20250219_telecom_default_gpt-4.1-2025-04-14_4trials.json",
+   "path": "sources/submissions/claude-3-7-sonnet_anthropic_2024-06-20/trajectories/claude-3-7-sonnet-20250219_telecom_default_gpt-4.1-2025-04-14_4trials.json",
+   "sha256": "f49e540896fe91ab8631647f02eb777ef6fed5a6ebec545f43e71d0504e227b2",
+   "bytes": 41190190
+  },
+  {
+   "url": "https://sierra-tau-bench-public.s3.amazonaws.com/submissions/gpt-4-1_openai_2024-06-20/trajectories/gpt-4.1-2025-04-14_airline_default_gpt-4.1-2025-04-14_4trials.json",
+   "path": "sources/submissions/gpt-4-1_openai_2024-06-20/trajectories/gpt-4.1-2025-04-14_airline_default_gpt-4.1-2025-04-14_4trials.json",
+   "sha256": "31d19e79b8ddc5934a60701f913ff5fefb41dee5e68f7b813c26254ab2e2d5c8",
+   "bytes": 8790399
+  },
+  {
+   "url": "https://sierra-tau-bench-public.s3.amazonaws.com/submissions/gpt-4-1_openai_2024-06-20/trajectories/gpt-4.1-2025-04-14_retail_default_gpt-4.1-2025-04-14_4trials.json",
+   "path": "sources/submissions/gpt-4-1_openai_2024-06-20/trajectories/gpt-4.1-2025-04-14_retail_default_gpt-4.1-2025-04-14_4trials.json",
+   "sha256": "5fc5b96ada0fe46a463eaed98d1bfed9947fe073bac052290162dae18d71394e",
+   "bytes": 22044059
+  },
+  {
+   "url": "https://sierra-tau-bench-public.s3.amazonaws.com/submissions/gpt-4-1_openai_2024-06-20/trajectories/gpt-4.1-2025-04-14_telecom_default_gpt-4.1-2025-04-14_4trials.json",
+   "path": "sources/submissions/gpt-4-1_openai_2024-06-20/trajectories/gpt-4.1-2025-04-14_telecom_default_gpt-4.1-2025-04-14_4trials.json",
+   "sha256": "8e1793f57a9e216514dbce1f93b44b0592d5904f1c5b97ab711906782107a1f2",
+   "bytes": 37463627
+  }
+ ],
+ "mast": {
+  "url": "https://huggingface.co/datasets/mcemri/MAST-Data/resolve/main/MAD_full_dataset.json",
+  "path": "mast_full.json",
+  "sha256": "d636ac63dfc1c6af2d312e862f4b7d383b62d3898d431ccd0e7a79d21d85406f",
+  "bytes": 199574367
+ }
+}

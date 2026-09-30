@@ -1,0 +1,4 @@
+docent==0.1.87
+scipy
+scikit-learn
+jsonschema

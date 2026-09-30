@@ -1,0 +1,6 @@
+build/
+reproduced/
+sources_root/
+*.pyc
+__pycache__/
+docent_pilot_state_*.json

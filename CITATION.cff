@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this rubric, data or code, please cite it."
+title: "Norm Provenance Ledger: a pre-registered measurement of told, held, yielded and agent-authored norms in LLM agent logs"
+authors:
+  - family-names: Ryzhkova
+    given-names: Julia
+    orcid: "https://orcid.org/0009-0005-4194-6059"
+    affiliation: "Siriona"
+date-released: 2026-09-30
+version: "0.4.4"
+license: MIT

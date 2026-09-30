@@ -1,0 +1,730 @@
+{
+ "run_061": {
+  "system": "MetaGPT",
+  "label": 0,
+  "fm11": 0,
+  "fm12": 0,
+  "pilot": false,
+  "excl": false,
+  "pair": "MetaGPT_09",
+  "key": [
+   "MetaGPT",
+   "Qwen",
+   80
+  ]
+ },
+ "run_062": {
+  "system": "ChatDev",
+  "label": 1,
+  "fm11": 1,
+  "fm12": 0,
+  "pilot": true,
+  "excl": true,
+  "pair": "ChatDev_07",
+  "key": [
+   "ChatDev",
+   "Qwen",
+   0
+  ]
+ },
+ "run_063": {
+  "system": "MetaGPT",
+  "label": 0,
+  "fm11": 0,
+  "fm12": 0,
+  "pilot": false,
+  "excl": false,
+  "pair": "MetaGPT_11",
+  "key": [
+   "MetaGPT",
+   "Qwen",
+   0
+  ]
+ },
+ "run_064": {
+  "system": "ChatDev",
+  "label": 1,
+  "fm11": 1,
+  "fm12": 0,
+  "pilot": false,
+  "excl": false,
+  "pair": "ChatDev_06",
+  "key": [
+   "ChatDev",
+   "Qwen",
+   25
+  ]
+ },
+ "run_065": {
+  "system": "MetaGPT",
+  "label": 1,
+  "fm11": 1,
+  "fm12": 0,
+  "pilot": false,
+  "excl": false,
+  "pair": "MetaGPT_12",
+  "key": [
+   "MetaGPT",
+   "Qwen",
+   60
+  ]
+ },
+ "run_066": {
+  "system": "ChatDev",
+  "label": 0,
+  "fm11": 0,
+  "fm12": 0,
+  "pilot": false,
+  "excl": false,
+  "pair": "ChatDev_04",
+  "key": [
+   "ChatDev",
+   "Qwen",
+   75
+  ]
+ },
+ "run_067": {
+  "system": "ChatDev",
+  "label": 0,
+  "fm11": 0,
+  "fm12": 0,
+  "pilot": false,
+  "excl": false,
+  "pair": "ChatDev_10",
+  "key": [
+   "ChatDev",
+   "Qwen",
+   51
+  ]
+ },
+ "run_068": {
+  "system": "MetaGPT",
+  "label": 0,
+  "fm11": 0,
+  "fm12": 0,
+  "pilot": true,
+  "excl": true,
+  "pair": "MetaGPT_06",
+  "key": [
+   "MetaGPT",
+   "Qwen",
+   49
+  ]
+ },
+ "run_069": {
+  "system": "ChatDev",
+  "label": 1,
+  "fm11": 1,
+  "fm12": 0,
+  "pilot": false,
+  "excl": false,
+  "pair": "ChatDev_05",
+  "key": [
+   "ChatDev",
+   "Qwen",
+   9
+  ]
+ },
+ "run_070": {
+  "system": "ChatDev",
+  "label": 1,
+  "fm11": 1,
+  "fm12": 0,
+  "pilot": false,
+  "excl": false,
+  "pair": "ChatDev_08",
+  "key": [
+   "ChatDev",
+   "Qwen",
+   44
+  ]
+ },
+ "run_071": {
+  "system": "MetaGPT",
+  "label": 0,
+  "fm11": 0,
+  "fm12": 0,
+  "pilot": false,
+  "excl": false,
+  "pair": "MetaGPT_13",
+  "key": [
+   "MetaGPT",
+   "Qwen",
+   71
+  ]
+ },
+ "run_072": {
+  "system": "MetaGPT",
+  "label": 1,
+  "fm11": 1,
+  "fm12": 0,
+  "pilot": false,
+  "excl": false,
+  "pair": "MetaGPT_01",
+  "key": [
+   "MetaGPT",
+   "Qwen",
+   11
+  ]
+ },
+ "run_073": {
+  "system": "MetaGPT",
+  "label": 1,
+  "fm11": 1,
+  "fm12": 0,
+  "pilot": false,
+  "excl": false,
+  "pair": "MetaGPT_02",
+  "key": [
+   "MetaGPT",
+   "Qwen",
+   94
+  ]
+ },
+ "run_074": {
+  "system": "ChatDev",
+  "label": 0,
+  "fm11": 0,
+  "fm12": 0,
+  "pilot": false,
+  "excl": false,
+  "pair": "ChatDev_13",
+  "key": [
+   "ChatDev",
+   "Qwen",
+   34
+  ]
+ },
+ "run_075": {
+  "system": "MetaGPT",
+  "label": 0,
+  "fm11": 0,
+  "fm12": 0,
+  "pilot": false,
+  "excl": false,
+  "pair": "MetaGPT_08",
+  "key": [
+   "MetaGPT",
+   "Qwen",
+   31
+  ]
+ },
+ "run_076": {
+  "system": "MetaGPT",
+  "label": 0,
+  "fm11": 0,
+  "fm12": 0,
+  "pilot": false,
+  "excl": false,
+  "pair": "MetaGPT_10",
+  "key": [
+   "MetaGPT",
+   "Qwen",
+   99
+  ]
+ },
+ "run_077": {
+  "system": "MetaGPT",
+  "label": 0,
+  "fm11": 0,
+  "fm12": 0,
+  "pilot": false,
+  "excl": false,
+  "pair": "MetaGPT_02",
+  "key": [
+   "MetaGPT",
+   "Qwen",
+   96
+  ]
+ },
+ "run_078": {
+  "system": "ChatDev",
+  "label": 0,
+  "fm11": 0,
+  "fm12": 0,
+  "pilot": false,
+  "excl": false,
+  "pair": "ChatDev_05",
+  "key": [
+   "ChatDev",
+   "Qwen",
+   18
+  ]
+ },
+ "run_079": {
+  "system": "ChatDev",
+  "label": 1,
+  "fm11": 1,
+  "fm12": 0,
+  "pilot": false,
+  "excl": false,
+  "pair": "ChatDev_11",
+  "key": [
+   "ChatDev",
+   "Qwen",
+   8
+  ]
+ },
+ "run_080": {
+  "system": "MetaGPT",
+  "label": 0,
+  "fm11": 0,
+  "fm12": 0,
+  "pilot": true,
+  "excl": true,
+  "pair": "MetaGPT_07",
+  "key": [
+   "MetaGPT",
+   "Qwen",
+   37
+  ]
+ },
+ "run_081": {
+  "system": "MetaGPT",
+  "label": 1,
+  "fm11": 1,
+  "fm12": 0,
+  "pilot": false,
+  "excl": false,
+  "pair": "MetaGPT_05",
+  "key": [
+   "MetaGPT",
+   "Qwen",
+   21
+  ]
+ },
+ "run_082": {
+  "system": "MetaGPT",
+  "label": 0,
+  "fm11": 0,
+  "fm12": 0,
+  "pilot": false,
+  "excl": false,
+  "pair": "MetaGPT_05",
+  "key": [
+   "MetaGPT",
+   "Qwen",
+   63
+  ]
+ },
+ "run_083": {
+  "system": "MetaGPT",
+  "label": 0,
+  "fm11": 0,
+  "fm12": 0,
+  "pilot": false,
+  "excl": false,
+  "pair": "MetaGPT_03",
+  "key": [
+   "MetaGPT",
+   "Qwen",
+   16
+  ]
+ },
+ "run_084": {
+  "system": "MetaGPT",
+  "label": 0,
+  "fm11": 0,
+  "fm12": 0,
+  "pilot": false,
+  "excl": false,
+  "pair": "MetaGPT_01",
+  "key": [
+   "MetaGPT",
+   "Qwen",
+   18
+  ]
+ },
+ "run_085": {
+  "system": "ChatDev",
+  "label": 0,
+  "fm11": 0,
+  "fm12": 0,
+  "pilot": false,
+  "excl": false,
+  "pair": "ChatDev_11",
+  "key": [
+   "ChatDev",
+   "Qwen",
+   2
+  ]
+ },
+ "run_086": {
+  "system": "ChatDev",
+  "label": 0,
+  "fm11": 0,
+  "fm12": 0,
+  "pilot": false,
+  "excl": false,
+  "pair": "ChatDev_03",
+  "key": [
+   "ChatDev",
+   "Qwen",
+   85
+  ]
+ },
+ "run_087": {
+  "system": "MetaGPT",
+  "label": 1,
+  "fm11": 0,
+  "fm12": 1,
+  "pilot": false,
+  "excl": false,
+  "pair": "MetaGPT_10",
+  "key": [
+   "MetaGPT",
+   "Qwen",
+   30
+  ]
+ },
+ "run_088": {
+  "system": "ChatDev",
+  "label": 0,
+  "fm11": 0,
+  "fm12": 0,
+  "pilot": false,
+  "excl": false,
+  "pair": "ChatDev_07",
+  "key": [
+   "ChatDev",
+   "Qwen",
+   59
+  ]
+ },
+ "run_089": {
+  "system": "ChatDev",
+  "label": 0,
+  "fm11": 0,
+  "fm12": 0,
+  "pilot": false,
+  "excl": false,
+  "pair": "ChatDev_06",
+  "key": [
+   "ChatDev",
+   "Qwen",
+   38
+  ]
+ },
+ "run_090": {
+  "system": "MetaGPT",
+  "label": 1,
+  "fm11": 1,
+  "fm12": 0,
+  "pilot": false,
+  "excl": false,
+  "pair": "MetaGPT_09",
+  "key": [
+   "MetaGPT",
+   "Qwen",
+   91
+  ]
+ },
+ "run_091": {
+  "system": "ChatDev",
+  "label": 1,
+  "fm11": 1,
+  "fm12": 0,
+  "pilot": false,
+  "excl": false,
+  "pair": "ChatDev_04",
+  "key": [
+   "ChatDev",
+   "Qwen",
+   90
+  ]
+ },
+ "run_092": {
+  "system": "ChatDev",
+  "label": 0,
+  "fm11": 0,
+  "fm12": 0,
+  "pilot": false,
+  "excl": false,
+  "pair": "ChatDev_09",
+  "key": [
+   "ChatDev",
+   "Qwen",
+   87
+  ]
+ },
+ "run_093": {
+  "system": "ChatDev",
+  "label": 0,
+  "fm11": 0,
+  "fm12": 0,
+  "pilot": false,
+  "excl": false,
+  "pair": "ChatDev_01",
+  "key": [
+   "ChatDev",
+   "Qwen",
+   52
+  ]
+ },
+ "run_094": {
+  "system": "ChatDev",
+  "label": 1,
+  "fm11": 1,
+  "fm12": 0,
+  "pilot": false,
+  "excl": false,
+  "pair": "ChatDev_13",
+  "key": [
+   "ChatDev",
+   "Qwen",
+   71
+  ]
+ },
+ "run_095": {
+  "system": "MetaGPT",
+  "label": 1,
+  "fm11": 1,
+  "fm12": 0,
+  "pilot": true,
+  "excl": true,
+  "pair": "MetaGPT_08",
+  "key": [
+   "MetaGPT",
+   "Qwen",
+   48
+  ]
+ },
+ "run_096": {
+  "system": "MetaGPT",
+  "label": 1,
+  "fm11": 1,
+  "fm12": 0,
+  "pilot": false,
+  "excl": false,
+  "pair": "MetaGPT_13",
+  "key": [
+   "MetaGPT",
+   "Qwen",
+   40
+  ]
+ },
+ "run_097": {
+  "system": "ChatDev",
+  "label": 0,
+  "fm11": 0,
+  "fm12": 0,
+  "pilot": false,
+  "excl": false,
+  "pair": "ChatDev_08",
+  "key": [
+   "ChatDev",
+   "Qwen",
+   30
+  ]
+ },
+ "run_098": {
+  "system": "ChatDev",
+  "label": 1,
+  "fm11": 1,
+  "fm12": 0,
+  "pilot": false,
+  "excl": false,
+  "pair": "ChatDev_02",
+  "key": [
+   "ChatDev",
+   "Qwen",
+   82
+  ]
+ },
+ "run_099": {
+  "system": "ChatDev",
+  "label": 1,
+  "fm11": 1,
+  "fm12": 0,
+  "pilot": false,
+  "excl": false,
+  "pair": "ChatDev_01",
+  "key": [
+   "ChatDev",
+   "Qwen",
+   48
+  ]
+ },
+ "run_100": {
+  "system": "ChatDev",
+  "label": 0,
+  "fm11": 0,
+  "fm12": 0,
+  "pilot": false,
+  "excl": false,
+  "pair": "ChatDev_02",
+  "key": [
+   "ChatDev",
+   "Qwen",
+   19
+  ]
+ },
+ "run_101": {
+  "system": "MetaGPT",
+  "label": 0,
+  "fm11": 0,
+  "fm12": 0,
+  "pilot": false,
+  "excl": false,
+  "pair": "MetaGPT_12",
+  "key": [
+   "MetaGPT",
+   "Qwen",
+   81
+  ]
+ },
+ "run_102": {
+  "system": "MetaGPT",
+  "label": 1,
+  "fm11": 1,
+  "fm12": 0,
+  "pilot": false,
+  "excl": false,
+  "pair": "MetaGPT_06",
+  "key": [
+   "MetaGPT",
+   "Qwen",
+   47
+  ]
+ },
+ "run_103": {
+  "system": "MetaGPT",
+  "label": 0,
+  "fm11": 0,
+  "fm12": 0,
+  "pilot": false,
+  "excl": false,
+  "pair": "MetaGPT_04",
+  "key": [
+   "MetaGPT",
+   "Qwen",
+   38
+  ]
+ },
+ "run_104": {
+  "system": "ChatDev",
+  "label": 1,
+  "fm11": 1,
+  "fm12": 0,
+  "pilot": false,
+  "excl": false,
+  "pair": "ChatDev_12",
+  "key": [
+   "ChatDev",
+   "Qwen",
+   94
+  ]
+ },
+ "run_105": {
+  "system": "ChatDev",
+  "label": 1,
+  "fm11": 1,
+  "fm12": 0,
+  "pilot": false,
+  "excl": false,
+  "pair": "ChatDev_10",
+  "key": [
+   "ChatDev",
+   "Qwen",
+   12
+  ]
+ },
+ "run_106": {
+  "system": "MetaGPT",
+  "label": 1,
+  "fm11": 1,
+  "fm12": 0,
+  "pilot": true,
+  "excl": true,
+  "pair": "MetaGPT_11",
+  "key": [
+   "MetaGPT",
+   "Qwen",
+   58
+  ]
+ },
+ "run_107": {
+  "system": "MetaGPT",
+  "label": 1,
+  "fm11": 1,
+  "fm12": 0,
+  "pilot": false,
+  "excl": false,
+  "pair": "MetaGPT_03",
+  "key": [
+   "MetaGPT",
+   "Qwen",
+   73
+  ]
+ },
+ "run_108": {
+  "system": "ChatDev",
+  "label": 1,
+  "fm11": 1,
+  "fm12": 0,
+  "pilot": false,
+  "excl": false,
+  "pair": "ChatDev_09",
+  "key": [
+   "ChatDev",
+   "Qwen",
+   73
+  ]
+ },
+ "run_109": {
+  "system": "MetaGPT",
+  "label": 1,
+  "fm11": 1,
+  "fm12": 0,
+  "pilot": false,
+  "excl": false,
+  "pair": "MetaGPT_04",
+  "key": [
+   "MetaGPT",
+   "Qwen",
+   44
+  ]
+ },
+ "run_110": {
+  "system": "ChatDev",
+  "label": 1,
+  "fm11": 1,
+  "fm12": 0,
+  "pilot": false,
+  "excl": false,
+  "pair": "ChatDev_03",
+  "key": [
+   "ChatDev",
+   "Qwen",
+   65
+  ]
+ },
+ "run_111": {
+  "system": "ChatDev",
+  "label": 0,
+  "fm11": 0,
+  "fm12": 0,
+  "pilot": false,
+  "excl": false,
+  "pair": "ChatDev_12",
+  "key": [
+   "ChatDev",
+   "Qwen",
+   78
+  ]
+ },
+ "run_112": {
+  "system": "MetaGPT",
+  "label": 1,
+  "fm11": 1,
+  "fm12": 0,
+  "pilot": false,
+  "excl": false,
+  "pair": "MetaGPT_07",
+  "key": [
+   "MetaGPT",
+   "Qwen",
+   97
+  ]
+ }
+}
