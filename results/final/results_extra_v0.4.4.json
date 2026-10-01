@@ -21,13 +21,13 @@
  },
  "posthoc_H1_trace_level": {
   "j1": {
-   "traces_viol_farther": 38,
-   "traces_viol_closer": 10,
+   "traces_viol_farther": 41,
+   "traces_viol_closer": 11,
    "sign_p_one_sided": 0.0
   },
   "j2": {
    "traces_viol_farther": 44,
-   "traces_viol_closer": 9,
+   "traces_viol_closer": 11,
    "sign_p_one_sided": 0.0
   }
  },

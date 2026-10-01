@@ -149,8 +149,8 @@
    },
    "within_trace_normalized": {
     "viol_farther": 44,
-    "viol_closer": 12,
-    "p": 1.0438284109209883e-05
+    "viol_closer": 11,
+    "p": 4.349685852389484e-06
    },
    "logit_dist_and_position": {
     "dz": {
@@ -216,8 +216,8 @@
    },
    "within_trace_normalized": {
     "viol_farther": 43,
-    "viol_closer": 11,
-    "p": 7.00652872809293e-06
+    "viol_closer": 10,
+    "p": 2.7752604445652196e-06
    },
    "logit_dist_and_position": {
     "dz": {

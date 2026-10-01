@@ -23,6 +23,7 @@ def within(df,col='dist'):
         v=g[g.y==1][col]; c=g[g.y==0][col]
         if len(v) and len(c):
             d=np.median(v)-np.median(c)
+            if np.isclose(d,0): continue
             pos+= d>0; neg+= d<0
     return dict(viol_farther=int(pos),viol_closer=int(neg),p=float(binomtest(int(pos),int(pos+neg),0.5,alternative='greater').pvalue) if pos+neg else None)
 def logit(df):

@@ -7,7 +7,7 @@ authors:
     orcid: "https://orcid.org/0009-0005-4194-6059"
     affiliation: "Siriona"
 date-released: 2026-10-01
-version: "0.4.5"
+version: "0.4.6"
 doi: 10.5281/zenodo.23067248
 identifiers:
   - type: doi

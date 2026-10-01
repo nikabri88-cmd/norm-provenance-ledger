@@ -190,7 +190,7 @@ def h1_cluster(j):
         ev=[e for e in classified(j,rid) if e['distance'] is not None and e.get('norm_type','conduct') in ('conduct','role')]
         v=sorted(e['distance'] for e in ev if e['class']=='violation'); c=sorted(e['distance'] for e in ev if e['class'] in ('near','distant'))
         if v and c:
-            d=v[len(v)//2]-c[len(c)//2]
+            d=statistics.median(v)-statistics.median(c)
             if d>0: pos+=1
             elif d<0: neg+=1
     return {'traces_viol_farther':pos,'traces_viol_closer':neg,'sign_p_one_sided':round(binomtest(pos,pos+neg,0.5,alternative='greater').pvalue,4) if pos+neg else None}

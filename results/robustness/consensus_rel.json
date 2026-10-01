@@ -1,20 +1,20 @@
 {
  "H1_semantic_consensus": {
   "0.2": {
-   "n_comp": 467,
-   "n_viol": 137,
+   "n_comp": 459,
+   "n_viol": 135,
    "med_comp": 17.0,
    "med_viol": 27.0,
-   "p_pooled": 1.1138128676800254e-12,
+   "p_pooled": 6.84740333690805e-13,
    "within_trace": "31/40",
    "p_within": 0.00033977412749663927
   },
   "0.3": {
-   "n_comp": 396,
-   "n_viol": 124,
+   "n_comp": 394,
+   "n_viol": 122,
    "med_comp": 19.0,
-   "med_viol": 27.0,
-   "p_pooled": 1.4455469409720694e-09,
+   "med_viol": 26.0,
+   "p_pooled": 3.3383449151219226e-09,
    "within_trace": "27/35",
    "p_within": 0.0009391127387061716
   },
@@ -33,14 +33,14 @@
    "n": 54,
    "with_pressure": 14,
    "rate_p": 0.373,
-   "rate_np": 0.127,
+   "rate_np": 0.125,
    "p": 0.021
   },
   "0.3": {
    "n": 54,
    "with_pressure": 10,
    "rate_p": 0.31,
-   "rate_np": 0.13,
+   "rate_np": 0.128,
    "p": 0.1196
   },
   "0.5": {
@@ -58,7 +58,7 @@
    478,
    180
   ],
-  "block_kappa_pressure": 0.552,
+  "block_kappa_pressure": 0.548,
   "blocks_pressure": [
    20,
    45,

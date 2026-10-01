@@ -10,18 +10,24 @@ texts=[clean(n['text']) for j in L for rid in common for n in L[j][rid]['ledger'
 vec=TfidfVectorizer(sublinear_tf=True,ngram_range=(1,2),min_df=1).fit(texts)
 def ntext(j,rid): return {n['norm_id']:clean(n['text']) for n in L[j][rid]['ledger']['norms']}
 def sem_events(rid,thr,kinds):
-    """J1 events matched by a J2 event at same block, same kind, same norm type, and norm-text cosine >= thr"""
+    """One-to-one matching of J1 and J2 events: within each (block, kind, norm type) group, maximum-weight
+    bipartite matching on norm-text cosine similarity; a pair counts if its similarity >= thr."""
+    from scipy.optimize import linear_sum_assignment
     t1,t2=ntext('j1',rid),ntext('j2',rid); nt1,nt2=ntype('j1',rid),ntype('j2',rid)
-    e1=[e for e in events('j1',rid) if e['kind'] in kinds]; e2=[e for e in events('j2',rid) if e['kind'] in kinds]
+    g1=defaultdict(list); g2=defaultdict(list)
+    for e in events('j1',rid):
+        if e['kind'] in kinds: g1[(e['block'],e['kind'],nt1.get(e['norm_id'],'conduct'))].append(e)
+    for e in events('j2',rid):
+        if e['kind'] in kinds: g2[(e['block'],e['kind'],nt2.get(e['norm_id'],'conduct'))].append(e)
     keep=[]
-    for a in e1:
-        cands=[b for b in e2 if b['block']==a['block'] and b['kind']==a['kind'] and nt2.get(b['norm_id'],'conduct')==nt1.get(a['norm_id'],'conduct')]
-        if not cands: continue
-        va=vec.transform([t1.get(a['norm_id'],'')]); best=None
-        for b in cands:
-            s=float((va@vec.transform([t2.get(b['norm_id'],'')]).T).toarray()[0,0])
-            if best is None or s>best[0]: best=(s,b)
-        if best[0]>=thr: keep.append((a,best[1]))
+    for key,a_list in g1.items():
+        b_list=g2.get(key,[])
+        if not b_list: continue
+        A_=vec.transform([t1.get(a['norm_id'],'') for a in a_list]); B_=vec.transform([t2.get(b['norm_id'],'') for b in b_list])
+        S=(A_@B_.T).toarray()
+        r,c=linear_sum_assignment(-S)
+        for i,k in zip(r,c):
+            if S[i,k]>=thr: keep.append((a_list[i],b_list[k]))
     return keep
 res={'H1_semantic_consensus':{},'H5_semantic_consensus':{}}
 for thr in [0.2,0.3,0.5]:
@@ -31,7 +37,7 @@ for thr in [0.2,0.3,0.5]:
             if a.get('norm_type','conduct') not in ('conduct','role') or a['distance'] is None or b['distance'] is None: continue
             d=(a['distance']+b['distance'])/2
             (viol if a['kind']=='violated' else comp).append(d); tr.setdefault(rid,{'v':[],'c':[]})['v' if a['kind']=='violated' else 'c'].append(d)
-    pos=sum(1 for x in tr.values() if x['v'] and x['c'] and np.median(x['v'])>np.median(x['c'])); neg=sum(1 for x in tr.values() if x['v'] and x['c'] and np.median(x['v'])<np.median(x['c']))
+    diffs=[np.median(x['v'])-np.median(x['c']) for x in tr.values() if x['v'] and x['c']]; pos=sum(1 for d in diffs if d>0 and not np.isclose(d,0)); neg=sum(1 for d in diffs if d<0 and not np.isclose(d,0))
     res['H1_semantic_consensus'][thr]=dict(n_comp=len(comp),n_viol=len(viol),med_comp=float(np.median(comp)) if comp else None,med_viol=float(np.median(viol)) if viol else None,
         p_pooled=float(mannwhitneyu(viol,comp,alternative='greater').pvalue) if comp and viol else None,within_trace=f'{pos}/{pos+neg}',p_within=float(binomtest(pos,pos+neg,0.5,alternative='greater').pvalue) if pos+neg else None)
     # H5 semantic consensus
@@ -59,6 +65,7 @@ rel={}
 for kind in ['violated','pressure']:
     y1=[];y2=[]
     for rid in common:
+        if kind=='pressure' and rid.startswith('B'): continue   # pressure is defined for tau2 dialogues only
         b1,b2=blocks('j1',rid,kind),blocks('j2',rid,kind); n=L['j1'][rid]['n_blocks']
         y1+=[int(i in b1) for i in range(n)]; y2+=[int(i in b2) for i in range(n)]
     rel[f'block_kappa_{kind}']=round(cohen_kappa_score(y1,y2),3); rel[f'blocks_{kind}']=(sum(y1),sum(y2),sum(a&b for a,b in zip(y1,y2)))

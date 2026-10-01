@@ -13,6 +13,7 @@ for j in ['j1','j2']:
         for nid,x in by.items():
             if x['v'] and x['c']:
                 n_norms+=1; d=np.median(x['v'])-np.median(x['c'])
+                if np.isclose(d,0): continue
                 pos+= d>0; neg+= d<0
     res[j]=dict(norms_with_both=n_norms,viol_farther=int(pos),viol_closer=int(neg),p=round(float(binomtest(int(pos),int(pos+neg),0.5,alternative='greater').pvalue),5))
 json.dump(res,open(os.path.join(os.environ.get('NPL_OUT','reproduced'),'h1_within_norm.json'),'w'),indent=1); print(res)
