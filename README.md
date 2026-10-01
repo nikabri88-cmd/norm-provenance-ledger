@@ -16,9 +16,11 @@ For every norm in an agent log the rubric records, block by block: where the nor
 |---|---|---|---|
 | Inter-judge agreement on compliance at distance (Spearman, n = 78) | | | 0.83 [0.75; 0.89] |
 | Inter-judge agreement on record-contradicted agent rules (κ, 7 vs 7 cases) | | | 0.85 |
-| H1: violations occur farther from the last reminder than compliance (median distance, blocks) | 20 vs 17, p = 2e-7 | 18 vs 13, p = 3e-15 | 27 vs 17, p = 1e-15 |
+| H1: in most traces, violations occur farther from the last reminder than applied compliance (within-trace sign test) | 39 of 50 traces, p = 5e-5 | 43 of 53, p = 3e-6 | 31 of 40, p = 3e-4 (norm-matched) |
 | H5: violations per agent turn after customer pressure vs dialogues without pressure | 0.50 vs 0.17, p = 0.003 | 0.65 vs 0.28, p = 0.005 | 0.24 vs 0.12, p = 0.066 |
 | H2: record-contradicted rules more frequent in failed dialogues | p = 0.50 (3 cases) | p = 0.49 (3 cases) | not supported |
+
+Pre-registered pooled Mann–Whitney test: medians 20 vs 17 (J1), 18 vs 13 (J2), 27 vs 17 (consensus); events within a trace are not independent, so these p-values (2e-7 to 3e-15) are anti-conservative and are not used as the headline.
 
 Eight of 101 traces contain an agent-stated rule that the transcript directly contradicts; in five of them both judges flagged the same block. Three patterns: customer-service agents inventing policy exceptions in the customer's favour, often right after pressure; agents in a multi-agent team resolving a conflict between requirements by declaring one of them void ("the GUI is not required"), against the written specification; and a technical claim contradicted by the documentation. The sample is stratified by task outcome and MAST labels, so counts describe this sample, not prevalence. H3, H4 and the overall count of agent-authored rules are reported descriptively; the overall count does not replicate across judges (Spearman 0.42). Full report: `results/final/results_report_v0.4.4.md`.
 
@@ -33,7 +35,7 @@ Precise wording of the findings: (1) violations of recorded norms occur farther 
 ## Reproduce
 
 ```
-pip install -r requirements.txt
+pip install -r requirements-lock.txt
 python scripts/00_fetch_sources.py sources_root          # 6 τ² files + MAST-Data, SHA-256 verified
 cp data/selection/B_index.json sources_root/
 python scripts/01_build_inputs.py sources_root build     # judge inputs, byte-identical to the study
@@ -43,7 +45,7 @@ NPL_BUILD=build NPL_OUT=reproduced python scripts/04_analysis.py    # all pre-re
 NPL_BUILD=build NPL_OUT=reproduced python scripts/robustness/h1_robust.py   # post-hoc checks (v0.4.5); likewise h1_within_norm.py, h5_robust.py, consensus_rel.py
 ```
 
-Each step was run from scratch before release and reproduced the published files exactly: 112 judge inputs byte-identical, all three corpora matching the pre-registered SHA-256, ledgers and results identical to `results/final`. Re-running the judges themselves requires a Docent account (`scripts/03_docent_run.py`, notebooks in `notebooks/`); judge outputs are model samples and will not reproduce byte for byte, which is why the raw exports are published.
+Verified on Python 3.11.15 and 3.12.3; see `requirements-lock.txt` for exact versions. Each step was run from scratch before release and reproduced the published files exactly: 112 judge inputs byte-identical, all three corpora matching the pre-registered SHA-256, ledgers and results identical to `results/final`. Re-running the judges themselves requires a Docent account (`scripts/03_docent_run.py`, notebooks in `notebooks/`); judge outputs are model samples and will not reproduce byte for byte, which is why the raw exports are published.
 
 ## Pre-registration
 
