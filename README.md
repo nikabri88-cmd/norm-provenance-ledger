@@ -1,10 +1,10 @@
 # Norm Provenance Ledger
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23067249.svg)](https://doi.org/10.5281/zenodo.23067249)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23067248.svg)](https://doi.org/10.5281/zenodo.23067248)
 
 Whose rule is an AI agent following? A pre-registered measurement of how LLM agents receive, keep, break, yield on, and invent behavioural norms, tested on customer-service dialogues with policy conflicts (τ²-bench) and on multi-agent software teams (MAST-Data).
 
-Author: Julia Ryzhkova (Siriona, siriona.one), ORCID 0009-0005-4194-6059. Status: study complete, 30 September 2026. Archived on Zenodo: https://doi.org/10.5281/zenodo.23067249. Everything needed to check the results is in this repository; the source transcripts are downloaded from their public hosts and verified by SHA-256.
+Author: Julia Ryzhkova (Siriona, siriona.one), ORCID 0009-0005-4194-6059. Status: study complete, 30 September 2026. Archived on Zenodo: https://doi.org/10.5281/zenodo.23067248. Everything needed to check the results is in this repository; the source transcripts are downloaded from their public hosts and verified by SHA-256.
 
 ## What is measured
 
