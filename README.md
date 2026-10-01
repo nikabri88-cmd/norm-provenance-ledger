@@ -1,8 +1,10 @@
 # Norm Provenance Ledger
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23067249.svg)](https://doi.org/10.5281/zenodo.23067249)
+
 Whose rule is an AI agent following? A pre-registered measurement of how LLM agents receive, keep, break, yield on, and invent behavioural norms, tested on customer-service dialogues with policy conflicts (τ²-bench) and on multi-agent software teams (MAST-Data).
 
-Author: Julia Ryzhkova (Siriona, siriona.one), ORCID 0009-0005-4194-6059. Status: study complete, 30 September 2026. Everything needed to check the results is in this repository; the source transcripts are downloaded from their public hosts and verified by SHA-256.
+Author: Julia Ryzhkova (Siriona, siriona.one), ORCID 0009-0005-4194-6059. Status: study complete, 30 September 2026. Archived on Zenodo: https://doi.org/10.5281/zenodo.23067249. Everything needed to check the results is in this repository; the source transcripts are downloaded from their public hosts and verified by SHA-256.
 
 ## What is measured
 
@@ -18,7 +20,13 @@ For every norm in an agent log the rubric records, block by block: where the nor
 | H5: violations per agent turn after customer pressure vs dialogues without pressure | 0.50 vs 0.17, p = 0.003 | 0.65 vs 0.28, p = 0.005 | 0.24 vs 0.12, p = 0.066 |
 | H2: record-contradicted rules more frequent in failed dialogues | p = 0.50 (3 cases) | p = 0.49 (3 cases) | not supported |
 
-Record-contradicted agent rules (8 traces, 5 found independently by both judges at the same block) show two dominant patterns: customer-service agents inventing policy exceptions in the customer's favour, often right after pressure; and agents in a multi-agent team resolving a conflict between requirements by declaring one of them void ("the GUI is not required"), against the written specification. A third, smaller pattern (two traces) is a factual error stated as a technical constraint ("tkinter is installed with pip install tk"). H3, H4 and the overall count of agent-authored rules are reported descriptively; the overall count does not replicate across judges (Spearman 0.42). Full report: `results/final/results_report_v0.4.4.md`.
+Eight of 101 traces contain an agent-stated rule that the transcript directly contradicts; in five of them both judges flagged the same block. Three patterns: customer-service agents inventing policy exceptions in the customer's favour, often right after pressure; agents in a multi-agent team resolving a conflict between requirements by declaring one of them void ("the GUI is not required"), against the written specification; and a technical claim contradicted by the documentation. The sample is stratified by task outcome and MAST labels, so counts describe this sample, not prevalence. H3, H4 and the overall count of agent-authored rules are reported descriptively; the overall count does not replicate across judges (Spearman 0.42). Full report: `results/final/results_report_v0.4.4.md`.
+
+## Post-hoc robustness checks (v0.4.5)
+
+After an external methodological review, six objections were tested on the same published judge outputs; these analyses are not pre-registered and are reported in `results/robustness/robustness_report_v0.4.5.md` (scripts in `scripts/robustness/`). In short: H1 holds with applied-only compliance, within traces, in the τ² corpus alone, after controlling for relative position in the dialogue, with norm-matched consensus, and on the 71 traces not seen before the final amendment; within the same norm it holds for one judge (40 of 58 norms) and is underpowered for the other. H5 holds on the 71 unseen traces and in a Poisson model adjusted for model, domain and dialogue length (rate ratio 2.1–2.5), stays in the same direction under norm-matched consensus with unstable significance, and remains an association. Block-level agreement is moderate (violations κ = 0.44, pressure κ = 0.55); trace-level agreement on record-contradicted rules is κ = 0.85 [0.49; 1.00].
+
+Precise wording of the findings: (1) violations of recorded norms occur farther from the last reminder than their application – a decay mechanism is suggested, not established; (2) after observed customer pressure, violations per agent turn are about twice as frequent as in dialogues without observed pressure – an association; (3) in 8 of 101 traces agents state rules the transcript directly contradicts – an existence result that replicates across judges.
 
 ## Reproduce
 
@@ -30,6 +38,7 @@ python scripts/01_build_inputs.py sources_root build     # judge inputs, byte-id
 python scripts/02_segment.py build build/corpus          # numbered corpora, checked against pre-registered hashes
 NPL_BUILD=build NPL_OUT=reproduced python scripts/05_normalize.py   # raw judge exports -> ledgers, checked against results/final
 NPL_BUILD=build NPL_OUT=reproduced python scripts/04_analysis.py    # all pre-registered analyses
+NPL_BUILD=build NPL_OUT=reproduced python scripts/robustness/h1_robust.py   # post-hoc checks (v0.4.5); likewise h1_within_norm.py, h5_robust.py, consensus_rel.py
 ```
 
 Each step was run from scratch before release and reproduced the published files exactly: 112 judge inputs byte-identical, all three corpora matching the pre-registered SHA-256, ledgers and results identical to `results/final`. Re-running the judges themselves requires a Docent account (`scripts/03_docent_run.py`, notebooks in `notebooks/`); judge outputs are model samples and will not reproduce byte for byte, which is why the raw exports are published.

@@ -8,6 +8,12 @@ authors:
     affiliation: "Siriona"
 date-released: 2026-09-30
 version: "0.4.4"
+doi: 10.5281/zenodo.23067249
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23067249
+    description: "Zenodo archive of release v0.4.4"
+repository-code: "https://github.com/nikabri88-cmd/norm-provenance-ledger"
 license:
   - MIT
   - CC-BY-4.0

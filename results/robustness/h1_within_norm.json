@@ -1,0 +1,14 @@
+{
+ "j1": {
+  "norms_with_both": 18,
+  "viol_farther": 9,
+  "viol_closer": 6,
+  "p": 0.30362
+ },
+ "j2": {
+  "norms_with_both": 69,
+  "viol_farther": 40,
+  "viol_closer": 18,
+  "p": 0.00268
+ }
+}
