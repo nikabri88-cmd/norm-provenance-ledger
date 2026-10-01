@@ -51,7 +51,7 @@ The plan, the pre-registration v0.4 and every amendment were written before the 
 
 ## Limitations
 
-Both judges come from one provider (OpenAI); cross-provider reliability was pre-registered but not run, so all results carry this caveat. τ² trajectory files contain no tool definitions. H1 cannot separate norm decay from dialogue length. H5 is an association: dialogues with pressure differ in the request itself. FM-1.2 comparison is untestable (one positive MAST label in the sample, no role violations found). Record-contradicted rules are eight cases – a signal, not a rate.
+Both judges come from one provider (OpenAI); cross-provider reliability was pre-registered but not run, so all results carry this caveat. τ² trajectory files contain no tool definitions. H1 does not establish norm decay as the mechanism; in the post-hoc analyses (v0.4.5) relative position in the dialogue does not explain the distance association. H5 is an association: dialogues with pressure differ in the request itself. FM-1.2 comparison is untestable (one positive MAST label in the sample, no role violations found). Record-contradicted rules occur in 8 of 101 traces – a signal, not a rate.
 
 ## Contents
 
