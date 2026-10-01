@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Recompute all pre-registered analyses (reliability, H1-H5) and post-hoc checks from the published judge ledgers.
 Needs the numbered corpora (scripts 00-02) for agent-turn counts. Env: NPL_BUILD (default build), NPL_OUT (default reproduced)."""
-import json, random, math, re
+import json, random, math, re, statistics
 from collections import Counter, defaultdict
 from scipy.stats import mannwhitneyu, spearmanr, binomtest
 from sklearn.metrics import cohen_kappa_score
@@ -47,7 +47,7 @@ def h1(j,consensus=False):
                 (viol if e['class']=='violation' else comp).append(e['distance'])
     if not viol or not comp: return {'n_comp':len(comp),'n_viol':len(viol),'p':None}
     u=mannwhitneyu(viol,comp,alternative='greater')
-    med=lambda x: sorted(x)[len(x)//2]
+    def med(x): m=statistics.median(x); return int(m) if m==int(m) else m  # standard median; int when both middle values agree, so the published JSON stays unchanged
     return {'n_comp':len(comp),'n_viol':len(viol),'median_dist_comp':med(comp),'median_dist_viol':med(viol),'U':float(u.statistic),'p_one_sided':float(u.pvalue)}
 out['H1']={'j1':h1('j1'),'j2':h1('j2'),'consensus':h1('j1',True)}
 # ---------- H2 (A): contradicted presence vs reward, task-cluster permutation within model x domain

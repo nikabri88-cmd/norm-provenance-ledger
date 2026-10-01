@@ -1,0 +1,22 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Julia Ryzhkova
+
+The rubric, reports, annotations and judge outputs in this repository (see
+LICENSES.md for the exact paths) are licensed under the Creative Commons
+Attribution 4.0 International License.
+
+You are free to share and adapt this material for any purpose, including
+commercially, provided you give appropriate credit, link to the license and
+indicate whether changes were made.
+
+Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+Human-readable summary: https://creativecommons.org/licenses/by/4.0/
+
+Attribution: Ryzhkova, J. (2026). Norm Provenance Ledger: a pre-registered
+measurement of told, held, yielded and agent-authored norms in LLM agent logs.
+Version 0.4.4. https://github.com/nikabri88-cmd/norm-provenance-ledger
+
+Judge outputs quote short excerpts of source transcripts, which remain under
+their original licences: tau2-bench (MIT, Sierra Research) and MAST-Data
+(CC BY 4.0, Cemri et al.).

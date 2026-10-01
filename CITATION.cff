@@ -8,4 +8,6 @@ authors:
     affiliation: "Siriona"
 date-released: 2026-09-30
 version: "0.4.4"
-license: MIT
+license:
+  - MIT
+  - CC-BY-4.0
